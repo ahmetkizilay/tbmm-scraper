@@ -1,6 +1,7 @@
 ### tbmm-scraper
 
-tbmm.gov.tr uzerinden veri kazima uygulamalari.
+tbmm.gov.tr uzerinden veri kazima uygulamalari. Indirilen veriler Graph Commons'a import edilmek uzere
+csv dosyalarina cevrilir.
 
 #### kullanim
 meclis dizini altinda doneme milletvekili listeleri ve profillerini kaziyan metodlar bulunmaktadir. Graph Commons'a uygun node ve edge csv dosyalari olusturulur.
