@@ -10,7 +10,8 @@
   detayli bilgiler kt-detay dizini icinde indirilir.
 
   kullanim
-  node ktii/parse-all.js --url <indirilecek url ya da path>
+  node ktii/parse-all.js --file <indirilecek url ya da path> --destII <>
+    --destMV <> --donem 23
  */
 'use strict';
 

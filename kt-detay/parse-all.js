@@ -1,9 +1,13 @@
 /*
   bir doneme ait tum kanun tekliflerini parse eder. girdi dosyasi olarak
   ktii/parse-all.js programi sonucu olusan json dosyasini kullanir. dest
-  parametresinden belirtilen adrese json olarak kaydeder.
+  parametresinden belirtilen adrese json olarak kaydeder. contentDir
+  parametresi ile kt-detay/download-all.js kodunun kaydettigi kanun teklifi
+  sayfalarinin dizini belirtilir.
 
-  node kkti/parse-all --file <input json> --dest <output json>
+  node kt-detay/parse-all --file <input json> --dest <output json>
+    --contentDir <kt dosyalari dizini>
+
  */
 'use strict';
 
