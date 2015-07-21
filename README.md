@@ -16,7 +16,7 @@ kt-detay dizini altinda ktii dizininde hazirlanan json dosyalari kullanilarak ka
 Her js dosyasinin basinda daha ayrintili bilgiler mevcuttur.
 
 ### veri modeli
-![model diyagrami](https://github.com/artsince/tbmm-scraper/blob/master/tbmm_model.jpg)
+![model diyagrami](https://github.com/artsince/tbmm-scraper/blob/master/tbmm_model.png)
 
 #### ornek komut sirasi
 23\. donem bilgilerini indirmek icin:
