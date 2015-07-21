@@ -56,7 +56,7 @@ obj.mvs.forEach(function (mv) {
   stringifier.write([
     'Milletvekili',
     mv.name + ' ' + mv.id,
-    'SECILDIGI_BOLGE',
+    argv.donem + '. DONEM TEMSIL ETTI',
     'Sehir',
     mv.city,
     1,
@@ -68,7 +68,7 @@ obj.mvs.forEach(function (mv) {
   stringifier.write([
     'Milletvekili',
     mv.name + ' ' + mv.id,
-    'MENSUBU',
+    argv.donem + '. DONEM MENSUBU',
     'Siyasi Parti',
     mv.party,
     1,
@@ -80,7 +80,7 @@ obj.mvs.forEach(function (mv) {
   stringifier.write([
     'Milletvekili',
     mv.name + ' ' + mv.id,
-    'HIZMET_DONEMI',
+    'HIZMET DONEMI',
     'Donem',
     argv.donem + '. Donem',
     1,
@@ -94,7 +94,7 @@ obj.parties.forEach(function (parti) {
   stringifier.write([
     'Siyasi Parti',
     parti,
-    'MECLISDE_YER_ALIR',
+    'MECLISTE YER ALDI',
     'Donem',
     argv.donem + '. Donem',
     1,

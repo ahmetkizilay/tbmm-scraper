@@ -46,13 +46,13 @@ stringifier.write([
   'baslik',
   'ozet',
   'son durum',
-  'id'
+  'sira no'
 ]);
 
 kts.forEach(function (kt) {
   stringifier.write([
     'Kanun Teklifi',
-    'kt ' + kt.id,
+    'Kanun Teklifi - ' + kt.esas_no + ' - ' + argv.donem,
     kt.ozet,
     '',
     'https://www.tbmm.gov.tr/develop/owa/tasari_teklif_sd.onerge_bilgileri?kanunlar_sira_no=' + kt.id,
